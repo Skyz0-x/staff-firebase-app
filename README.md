@@ -1,16 +1,31 @@
-# stafffirebase
+# Staff Firebase CRUD App
 
-A new Flutter project.
+A simple Flutter mobile application built for **DES3113 Mobile Application Development Lab Test**.  
+This app demonstrates **CRUD operations (Create, Read, Update, Delete)** using **Firebase Firestore**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📱 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Add new staff members with name, ID, and age
+- View a list of all saved staff
+- Update or delete staff entries (bonus feature)
+- Firebase Firestore integration
+- Clean navigation between pages
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🧪 Technologies Used
+
+- **Flutter** (UI & logic)
+- **Dart** (programming language)
+- **Firebase Core** – project initialization
+- **Firebase Firestore** – cloud database
+- **Android Emulator / Physical Android Device** for testing
+
+## 🚀 How to Run
+
+### 🔧 1. Clone this Repository
+```bash
+git clone https://github.com/your-username/staff-firebase-app.git
+cd staff-firebase-app
