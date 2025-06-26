@@ -1,0 +1,31 @@
+name: stafffirebase
+description: A new Flutter project.
+
+publish_to: 'none' # Keep this unless you're publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase Core & Firestore
+  firebase_core: ^2.27.0
+  cloud_firestore: ^4.13.2
+
+  # UI
+  cupertino_icons: ^1.0.8
+
+  # Optional (for smoother animations or fonts)
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
